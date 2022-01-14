@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scatter Plot D3</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <svg id="canvas">
+      <text id="title" x="300" y="20">Doping in Professional Cyclists</text>
+    </svg >
+    <header>Year vs Time</header>
+    <div id="legend">
+      <div class="icons">
+        <i class="fa fa-bicycle" style="font-size: 30px; color: #e17055"></i>
+        Dopping Allegation<br />
+        <i class="fa fa-bicycle" style="font-size: 30px; color: #00b894"></i>
+        No Allegation<br />
+      </div>
+    </div>
+    <div id="tooltip"></div>
+    <footer>
+      Made by Tegar D Pradana, 
+      code on 
+      <a
+        href="https://github.com/TechnoLatopumi/scatter-plot-d3-freecodecamp.git"
+        target="_blank"
+      >
+        <i class="fa fa-github" style="font-size: 30px; color: lightseagreen"></i></a
+      >
+  </body>
+  <script defer src="./index.js"></script>
+  <script
+    defer
+    src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"
+  ></script>
+</html>
